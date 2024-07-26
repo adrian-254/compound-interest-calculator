@@ -1,0 +1,97 @@
+
+footer p{
+    vertical-align: bottom;
+    
+}
+
+.card{
+    padding: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px 20px 0 ;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0.2));
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+   
+}
+input{
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+body{
+    background-color: #124e66;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+    
+}
+@media (min-width:480px){
+    .section{
+        width: 40%;
+        position: relative;
+        left: 30%;
+    }
+}
+.text-center{
+    color: white;
+}
+.text-muted{
+    color: aliceblue;
+}
+.text{
+    color:rgb(37, 37, 37);
+}
+.textb{
+    color: limegreen;
+}
+
+@media (min-width:480px) {
+    .section{
+        background-color:#124e66;
+        vertical-align: baseline;
+        position: absolute;
+        top: 0%;
+        height: 100vh;
+    }
+}
+/* BLOBZ */
+.tk-blob {
+    position: relative;
+    width: 100px;
+    height: 100px; /* Adjust height as needed */
+    overflow: hidden; /* Ensures the blob doesn't overflow */
+}
+
+.tk-blob svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: blob-turn var(--time, 20s) linear infinite;
+    fill: var(--fill, #56cbb9);
+    z-index: -1; /* Ensure it's behind other content */
+}
+
+.content {
+    position: relative;
+    z-index: 1; /* Ensure content is above the blob */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color on top of the blob */
+    text-align: center; /* Center-align text */
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Specify your preferred font */
+}
+
+@keyframes blob-turn {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
