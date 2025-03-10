@@ -3,7 +3,8 @@ footer p{
     vertical-align: bottom;
     
 }
-
+a{
+    text-decoration: none;}
 .card{
     padding: 12px;
     padding-bottom: 12px;
