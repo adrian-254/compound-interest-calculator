@@ -4,7 +4,9 @@ footer p{
     
 }
 a{
-    text-decoration: none;}
+    text-decoration: none;
+    color: #fff;
+}
 .card{
     padding: 12px;
     padding-bottom: 12px;
