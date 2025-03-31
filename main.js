@@ -16,9 +16,9 @@ const Calculate = () => {
         interest.innerHTML = (Money - principal).toFixed(2);  // Display interest with 2 d.place
     } else if (annuallyRadio.checked) {
         // Annual compounding
-        let Money = principal * Math.pow(1 + rate / 100, duration);
-        amount.innerHTML = Money.toFixed(2);  // Display total amount with 2 decimal places
-        interest.innerHTML = (Money - principal).toFixed(2);  // Display interest with 2.places
+        let Moneyy = principal * Math.pow(1 + rate / 100, duration);
+        amount.innerHTML = Moneyy.toFixed(2);  // Display total amount with 2 decimal places
+        interest.innerHTML = (Moneyy - principal).toFixed(2);  // Display interest with 2.places
     }
 };
 var dat = document.getElementById("tym");
