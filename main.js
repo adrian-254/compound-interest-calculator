@@ -22,3 +22,7 @@ const Calculate = () => {
         interest.innerHTML = (Money - principal).toFixed(2);  // Display interest with 2.places
     }
 };
+var dat = document.getElementById("tym");
+let tarehe =new Date().getFullYear();
+
+dat.innerHTML = "Adrian " + tarehe
