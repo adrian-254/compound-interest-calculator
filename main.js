@@ -7,7 +7,6 @@ const Calculate = () => {
     const amount = document.getElementById("amountSpan");
     const monthlyRadio = document.getElementById("monthlyRadio");
     const annuallyRadio = document.getElementById("annuallyRadio");
-    const tarehe = date.getFullYear();
 
     //the calculation
     if (monthlyRadio.checked) {
